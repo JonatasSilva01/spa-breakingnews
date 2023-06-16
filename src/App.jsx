@@ -1,10 +1,10 @@
-import React from "react";
-import Home from "./pages/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
+import { GlobalStyle } from "./styles/global-styles";
 
 function App() {
   return (
     <>
+      <GlobalStyle />
       <Navbar />
     </>
   );

@@ -1,29 +1,39 @@
 import styled from "styled-components";
 
-export const NavbarComponentMain = styled.div`
-  max-width: 900px;
-  margin: 0 auto;
+export const PartitionComponentOne = styled.div`
   width: 100%;
-`;
+  max-width: 1700px;
+  margin: 0 auto;
 
-export const DFlexBetween = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-`;
-
-export const UnorderedList = styled.ul`
-  display: flex;
-  border-color: black;
-  list-style: none;
-
-  a {
+  nav {
+    margin: 0 auto;
+    display: flex;
     align-items: center;
-    text-decoration: none;
-    color: #000000;
+    justify-content: space-between;
+    padding: 1rem;
   }
 
-  li {
-    margin-left: 20px;
+  background-color: #ffffff;
+
+  input {
+    padding: 0.6rem;
+    width: 100%;
+    border: none;
+    max-width: 600px;
+    background-color: #aaaaaa8d;
+    outline: none;
+    font-size: 16px;
+  }
+
+  button {
+    padding: 15px;
+    outline: none;
+    border: none;
+    background-color: #2c8ab4;
+    border-radius: 5px;
+    color: #ffff;
+    font-weight: 600;
+    font-style: oblique;
+    text-transform: uppercase;
   }
 `;

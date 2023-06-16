@@ -1,21 +1,21 @@
-import React from "react";
-import { DFlexBetween, NavbarComponentMain, UnorderedList } from "./Styled.components";
+import { PartitionComponentOne } from "./Styled.components";
 
 const Navbar = () => {
   return (
     <>
-      <NavbarComponentMain>
-        <DFlexBetween>
-            <div>Logo</div>
-            <div>
-                <UnorderedList>
-                    <li><a href="http://">Home</a></li>
-                    <li><a href="http://">Search</a></li>
-                    <li><a href="http://">Profile</a></li>
-                </UnorderedList>
-            </div>
-        </DFlexBetween>
-      </NavbarComponentMain>
+      <PartitionComponentOne>
+        <nav>
+          <div>
+            <input placeholder="pesquise por alguma noticia na cidade de diadema" />
+          </div>
+          <div>
+            <h1>logo</h1>
+          </div>
+          <div>
+            <button>Entrar</button>
+          </div>
+        </nav>
+      </PartitionComponentOne>
     </>
   );
 };

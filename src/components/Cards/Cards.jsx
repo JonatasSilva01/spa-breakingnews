@@ -1,11 +1,5 @@
-import React from "react";
-
 const Cards = () => {
-    return (
-        <>
-            
-        </>
-    )
-}
+  return <></>;
+};
 
 export default Cards;
